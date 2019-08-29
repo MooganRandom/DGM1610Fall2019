@@ -15,7 +15,7 @@ public class Stimpy : MonoBehaviour
     {
     Debug.Log ("First Name: " + name);
     Debug.Log ("Age: " + age);
-    Debug.Log ("Hieght: " + height);
+    Debug.Log ("Height: " + height);
     Debug.Log ("Funny: " + funny);
     }
 
