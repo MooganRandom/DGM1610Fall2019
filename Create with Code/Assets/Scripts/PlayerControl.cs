@@ -16,6 +16,7 @@ public class PlayerControl : MonoBehaviour
          //This controls the movement of the vehicle
          horizontalInput = Input.GetAxis("Horizontal");
          forwardInput = Input.GetAxis("Vertical");
+
          //This makes the vehicle move horizontal and vertical
          transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
          transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
